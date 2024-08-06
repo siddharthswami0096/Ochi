@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'regular';
+    src: url('./assets/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+    font-family: 'founders';
+    src: url(./assets/FoundersGrotesk-Semibold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
